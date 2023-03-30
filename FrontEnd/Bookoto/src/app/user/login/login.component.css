@@ -1,0 +1,152 @@
+.row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  /* flex-flow: row wrap; */
+}
+
+._3wFoIb {
+  color: #212121;
+  margin: 0 auto;
+  border-radius: 2px;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+}
+.logintext {
+  font-size: 27px;
+  font-weight: 700;
+}
+._1-pxlW {
+  margin-top: 20px;
+}
+._36HLxm {
+  padding: 56px 35px 16px;
+  position: relative;
+  background-color: #fff;
+}
+._3wFoIb ._3oBhRa._4H6HH5 {
+  background-image: url(//static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
+  background-position: center 85%;
+  background-repeat: no-repeat;
+}
+
+._3wFoIb ._3oBhRa {
+  background-color: #c0c7d3;
+  color: #fff;
+  padding: 40px 33px;
+  font-size: 15px;
+}
+
+._1VCsXx {
+  display: block;
+  height: 48px;
+  width: 336px;
+}
+
+.IiD88i {
+  position: relative;
+  margin-bottom: 34px;
+  font-size: 16px;
+}
+._1Ijv5h {
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+._2IX_2- {
+  padding: 8px 10px 10px 0;
+  width: 100%;
+  color: #000;
+  font-size: inherit;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+._2IX_2-:focus {
+  outline: none;
+}
+
+._2IX_2-._1Z69nn {
+  padding-left: 40px;
+}
+
+._2IX_2-._3mctLh {
+  padding-right: 60px;
+}
+
+._2IX_2-._17djX5 {
+  border-color: #ff6161;
+  border-bottom-width: 2px;
+}
+._1k3JO2 {
+  margin-top: 16px;
+}
+._2KpZ6l._3AWRsL {
+  background: #fb641b;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #fff;
+}
+._1En5li {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+example-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+
+.button-box,
+.button-box-special {
+  width: 250px;
+  height: 150px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.twenty {
+  background: #fff;
+  color: #3feb80;
+  border: 2px solid #3feb80;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.twenty span {
+  position: relative;
+  position: 400ms;
+}
+
+.twenty span::after {
+  content: "\203A";
+  position: absolute;
+  opacity: 0;
+  right: -10px;
+  transition: 400ms ease-out 100ms;
+}
+
+.twenty:hover span::after {
+  opacity: 1;
+  right: -20px;
+}
